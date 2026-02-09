@@ -15,7 +15,15 @@ cd benchaid && clayde #For Anthropic's Claude Code
 # Works with any of your favourite agents!
 ```
 
-Now start any agentic LLM in this folder -- [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex](https://openai.com/codex/), or any other agent that reads markdown files. The agent picks up `AGENTS.md` automatically, learns your lab context from `USER.md`, `LAB.md`, and `STOCKS.md`, and is ready to work -- designing primers, calculating buffer recipes, verifying ORFs, optimizing codons, assembling multi-protein complexes, running PHENIX refinements, documenting experiments in your lab notebook, and more.
+Now start any agentic LLM in this folder -- [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex](https://openai.com/codex/), or any other agent. On first launch the agent will walk you through filling in `USER.md`, `LAB.md`, and other config files for your lab.
+
+```bash
+cd benchaid && codex #For OpenAI Codex
+cd benchaid && clayde #For Anthropic's Claude Code
+# Works with any of your favourite agents!
+```
+
+Designing primers, calculating buffer recipes, verifying ORFs, optimizing codons, assembling multi-protein complexes, running PHENIX refinements, documenting experiments in your lab notebook is easy. Here are some examples:
 
 ```
 > Design LIC primers for RPB1 from accession P24928
@@ -23,7 +31,7 @@ Now start any agentic LLM in this folder -- [Claude Code](https://docs.anthropic
 > Calculate a 100 µL elongation complex assembly with 5.2 µM Pol II
 ```
 
-On first launch the agent will walk you through filling in `USER.md`, `LAB.md`, and other config files for your lab.
+
 
 ## CLI Tools
 
