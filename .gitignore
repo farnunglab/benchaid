@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Claude Code
+.claude/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+!benchaid.log
+tmp/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local data files
+*.db
+*.csv
+activity_log.json
+
+# Private lab data
+protocols/
+memory/*.md
+!memory/.gitkeep
+raw/
+plasmidsaurus_data/
+manuscript/
+experiments/
+presentations/
+
+# Root-level memory file
+memory.md
