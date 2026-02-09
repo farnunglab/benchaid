@@ -4,18 +4,15 @@ An AI agent for the wet lab. Built by the [Farnung Lab](https://farnunglab.com).
 
 **[benchaid.farnunglab.com](https://benchaid.farnunglab.com)**
 
-BenchAid accelerates your biochemistry and structural biology workflows -- from primer design to protein purification. It turns [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [OpenAI Codex](https://openai.com/codex/), or any other agentic LLM into a knowledgeable lab partner that understands your proteins, buffers, cloning strategies, and experimental workflows.
+BenchAid accelerates your biochemistry and structural biology workflows from primer design to protein purification. It turns [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [OpenAI Codex](https://openai.com/codex/), or any other agentic LLM into a knowledgeable lab partner that understands your proteins, buffers, cloning strategies, and experimental workflows.
 
 ## Quick Start
 
 ```bash
 git clone https://github.com/farnunglab/benchaid.git
-cd benchaid && codex #For OpenAI Codex
-cd benchaid && clayde #For Anthropic's Claude Code
-# Works with any of your favourite agents!
 ```
 
-Now start any agentic LLM in this folder -- [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex](https://openai.com/codex/), or any other agent. On first launch the agent will walk you through filling in `USER.md`, `LAB.md`, and other config files for your lab.
+Now start any agentic LLM in this folder -- [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex](https://openai.com/codex/), or any other agent. On first launch the agent will walk you through filling in `USER.md`, `LAB.md`, and other config files for your lab to help you effectively.
 
 ```bash
 cd benchaid && codex #For OpenAI Codex
