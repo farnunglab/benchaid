@@ -12,7 +12,7 @@ BenchAid accelerates your biochemistry and structural biology workflows -- from 
 git clone https://github.com/farnunglab/benchaid.git
 cd benchaid && codex #For OpenAI Codex
 cd benchaid && clayde #For Anthropic's Claude Code
-# Works wwith any of your favourite agents!
+# Works with any of your favourite agents!
 ```
 
 Now start any agentic LLM in this folder -- [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex](https://openai.com/codex/), or any other agent that reads markdown files. The agent picks up `AGENTS.md` automatically, learns your lab context from `USER.md`, `LAB.md`, and `STOCKS.md`, and is ready to work -- designing primers, calculating buffer recipes, verifying ORFs, optimizing codons, assembling multi-protein complexes, running PHENIX refinements, documenting experiments in your lab notebook, and more.
