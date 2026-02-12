@@ -2,7 +2,7 @@
 
 This folder is home. Treat it that way.
 
-If you initate this for the first time, make sure to ask the user for all information to complete IDENTITY.md, USER.md, SOUL.md, LAB.md etc. Once completed, delete this line. When required ask the user about STOCKS.md etc.
+If you initate this for the first time, make sure to ask the user for all information to complete IDENTITY.md, USER.md, SOUL.md, LAB.md to bootstrap your setup. Do not ask the user all questions at once. Ask them consecutively until you have all required information. During initial setup, there will be no memory files because you are just getting initialized Once completed, delete this information about the initial setup/bootstrapping. When required ask the user about STOCKS.md etc.
 
 ## Key Files
 
