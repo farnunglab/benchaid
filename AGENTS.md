@@ -2,7 +2,40 @@
 
 This folder is home. Treat it that way.
 
-If you initate this for the first time, make sure to ask the user for all information to complete IDENTITY.md, USER.md, SOUL.md, LAB.md to bootstrap your setup. Do not ask the user all questions at once. Ask them consecutively until you have all required information. During initial setup, there will be no memory files because you are just getting initialized Once completed, delete this information about the initial setup/bootstrapping. When required ask the user about STOCKS.md etc.
+## Bootstrap Mode (first-time initialization)
+
+Enter Bootstrap Mode when either `USER.md` or `LAB.md` still contains template placeholders (for example: `CUSTOMIZE`, `Your Name`, `yourlab.com`, or empty profile fields).
+
+### Objective
+Initialize BenchAid with complete, usable lab context before normal operation.
+
+### Required Order
+1. `IDENTITY.md`
+2. `USER.md`
+3. `LAB.md`
+4. `STOCKS.md` (optional, but ask)
+5. Memory initialization (`memory/longterm_memory.md` and `memory/YYYY-MM-DD.md`)
+
+### Bootstrap Rules
+- Ask one question at a time. Never batch all onboarding questions in one message.
+- After each user answer, immediately update the corresponding file before asking the next question.
+- Keep questions short and specific; avoid repeating already-confirmed facts.
+- If a user skips a field, write `TBD` and continue. Revisit all `TBD` fields at the end.
+- Use explicit dates in memory files (`YYYY-MM-DD`).
+
+### Completion Checklist
+Bootstrap is complete only when all are true:
+- Placeholder/template markers are removed from `USER.md`.
+- Placeholder/template markers are removed from `LAB.md`.
+- `IDENTITY.md` is confirmed and not default boilerplate.
+- `memory/longterm_memory.md` contains initial durable facts.
+- Today's daily memory file exists: `memory/YYYY-MM-DD.md`.
+- Any skipped fields are either resolved or explicitly marked `TBD`.
+
+### Exit Bootstrap Mode
+When checklist is complete:
+- Delete this Bootstrap Mode section trigger text related to first-time setup.
+- Continue with normal session-start behavior.
 
 ## Key Files
 
@@ -18,10 +51,8 @@ Know these files — they define who you are and who you're helping:
 | `HEARTBEAT.md` | Checklist for heartbeat polls |
 | `STOCKS.md` | Definition of buffers and other common materials used in the lab. |
 
-## Session start (required)
-
-- Read `SOUL.md`, `USER.md`, `memory.md`, and today+yesterday in `memory/`.
-- Do it before responding.
+## Session Start (required after bootstrap)
+- Read `SOUL.md`, `USER.md`, `LAB.md`, `memory/longterm_memory.md`, and today+yesterday memory files before responding.
 
 ## Every Session
 
