@@ -110,7 +110,7 @@ def fetch_protein_sequence(accession: str) -> dict:
     url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id={urllib.parse.quote(accession)}&rettype=fasta&retmode=text"
 
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Benchmate/1.0"})
+        req = urllib.request.Request(url, headers={"User-Agent": "BenchAid/1.0"})
         with urllib.request.urlopen(req) as resp:
             fasta = resp.read().decode()
             lines = fasta.strip().split("\n")
