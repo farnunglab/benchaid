@@ -1,7 +1,7 @@
 ---
 name: plasmidsaurus
 description: Fetch sequencing data from Plasmidsaurus. Use when the user asks about listing sequencing orders, downloading sequencing results, checking order status, or retrieving plasmid sequences from Plasmidsaurus.
-allowed-tools: Bash(plasmidsaurus_cli:*) Bash(python3:*)
+allowed-tools: Bash(plasmidsaurus_cli:*)
 ---
 
 # Plasmidsaurus CLI

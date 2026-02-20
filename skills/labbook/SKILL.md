@@ -1,7 +1,7 @@
 ---
 name: labbook
 description: Manage lab notebook entries, registry items (plasmids, proteins, etc.), templates, widgets, and audit logs via the Labbook service. Use when creating or viewing lab notebook entries, managing the sample registry, or documenting experiments.
-allowed-tools: Bash(labbookCLI:*) Bash(go:*)
+allowed-tools: Bash(labbookCLI:*)
 ---
 
 # LabBook Skill

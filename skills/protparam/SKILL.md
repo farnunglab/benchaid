@@ -1,7 +1,7 @@
 ---
 name: protparam
 description: Calculate protein parameters (MW, pI, extinction coefficient) and generate purification recommendations. Use when the user asks about protein properties, molecular weight, isoelectric point, extinction coefficients, or purification strategies.
-allowed-tools: Bash(protparam_cli:*) Bash(protparam:*) Bash(python:*)
+allowed-tools: Bash(protparam_cli:*) Bash(protparam:*)
 ---
 
 # Protein Parameters Calculator

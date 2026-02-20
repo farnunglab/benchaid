@@ -1,7 +1,7 @@
 ---
 name: constructboundary
 description: Predict optimal construct boundaries for protein expression. Use when the user asks about domain boundaries, construct design, truncations, which region of a protein to express, or identifying disordered regions.
-allowed-tools: Bash(construct_boundary:*) Bash(go:*)
+allowed-tools: Bash(construct_boundary:*)
 ---
 
 # Construct Boundary Predictor
