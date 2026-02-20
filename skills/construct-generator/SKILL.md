@@ -1,3 +1,9 @@
+---
+name: construct-generator
+description: Generate expected plasmid maps by combining vector backbones with insert sequences. Use when the user asks about in-silico cloning, simulating cloning reactions, generating construct maps, or verifying clone sequences against expected products.
+allowed-tools: Bash(construct_generator:*)
+---
+
 # Construct Generator
 
 Generate expected plasmid maps by combining vector backbones with insert sequences. Essential for clone verification workflows.
