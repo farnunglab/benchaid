@@ -1,7 +1,7 @@
 ---
 name: quartzy
 description: Query and manage Quartzy lab inventory, order requests, and webhooks. Use when the user asks about lab supplies, reagent inventory, placing orders, checking order status, or creating new order requests in Quartzy.
-allowed-tools: Bash(quartzy:*), Bash(quartzy:*)
+allowed-tools: Bash(quartzy:*)
 ---
 
 # Quartzy Skill

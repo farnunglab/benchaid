@@ -1,3 +1,9 @@
+---
+name: complex-formation
+description: Assemble and purify macromolecular complexes for structural biology. Use when the user asks about gel filtration, complex assembly, SEC purification, elongation complexes, calculating stoichiometry, or interpreting A260/A280 ratios.
+allowed-tools: Bash(complex_cli:*)
+---
+
 # Complex Formation Skill
 
 Guidelines for assembling and purifying macromolecular complexes for structural biology.

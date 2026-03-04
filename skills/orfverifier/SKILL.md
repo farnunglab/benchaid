@@ -1,7 +1,7 @@
 ---
 name: orfverifier
 description: Verify open reading frames (ORFs) in plasmid sequences. Use when the user asks about verifying protein coding sequences, checking if an ORF is present in a plasmid, finding where a protein is encoded, or doing six-frame translation analysis.
-allowed-tools: Bash(orf_verifier_cli:*), Bash(python:*)
+allowed-tools: Bash(orf_verifier_cli:*)
 ---
 
 # ORF Verifier Tool

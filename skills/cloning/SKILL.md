@@ -1,3 +1,9 @@
+---
+name: cloning
+description: Decision trees and workflows for molecular cloning in structural biology labs. Use when the user asks about cloning strategies, LIC vs Gibson, biGBac assembly, tag selection, expression system choice (insect vs E. coli), codon optimization, or designing constructs.
+allowed-tools: Bash(primer_cli:*) Bash(codon_optimize_cli:*) Bash(plasmidsaurus_cli:*) Bash(orf_verifier_cli:*)
+---
+
 # Cloning Skill
 
 Decision tree and workflows for molecular cloning in structural biology labs.

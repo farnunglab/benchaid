@@ -1,7 +1,7 @@
 ---
 name: primerdesigner
 description: Design PCR primers for molecular cloning. Use when the user asks about designing primers, LIC cloning primers, sequencing primers, Gibson assembly primers, or working with NCBI accession codes for cloning.
-allowed-tools: Bash(primer_cli:*), Bash(primerdesigner:*), Bash(python:*)
+allowed-tools: Bash(primer_cli:*) Bash(primerdesigner:*)
 ---
 
 # Primer Designer Tool

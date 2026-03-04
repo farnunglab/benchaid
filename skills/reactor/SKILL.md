@@ -1,10 +1,7 @@
 ---
 name: reactor
 description: Calculate reaction buffer recipes accounting for protein stock contributions. Use when the user asks about designing reaction buffers, calculating buffer volumes, compensation buffers, or setting up biochemistry experiments with proteins.
-allowed_commands:
-  - "Bash(scripts/reactor_cli.py --list-presets)"
-  - "Bash(scripts/reactor_cli.py --list-stocks)"
-  - "Bash(scripts/reactor_cli.py:*)"
+allowed-tools: Bash(reactor_cli:*)
 ---
 
 # Reactor - Buffer Calculator

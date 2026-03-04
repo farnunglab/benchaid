@@ -1,3 +1,8 @@
+---
+name: insect-cell
+description: Baculovirus expression system for recombinant protein production. Use when the user asks about insect cell expression, baculovirus, V0/V1 production, Sf9/Hi5/Sf21 cells, DH10αEMBacY transfection, or large-scale protein expression.
+---
+
 # Insect Cell Expression Skill
 
 Baculovirus expression system for recombinant protein production.
